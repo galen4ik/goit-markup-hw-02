@@ -1,34 +1,128 @@
-/* цвет основного текста */  #E5E5E5;
+/* цвет основного текста */  #E5E5E5
 
-/* вторичный цвет, темный */ #2F303A;
+/* вторичный цвет, темный */ #2F303A
 
-/* белый(футер, задний фон li фоток) */ #FFFFFF;
+/* белый(футер, h1-hero, задний фон li фоток) */ #FFFFFF;
 
-/* Наша команда задник */  #F5F4FA;
+/* Наша команда задник */  #F5F4FA
 
-/* кнопка синяя */ #2196F3;
+/* кнопка синяя */ #2196F3
 
-/* Заголовки ,nav, портф-фичи,h1 */ background: #212121;
+/* Заголовки ,nav, портф-фичи,h1 */ #212121
 
-/* p, sect */  #757575;
-/*  футер.адрес, тел */  background: #FFFFFF 60 %;
+/* p, sect */  #757575
 
-Шрифты 
-/* основной шрифт */ font-family: Roboto;
+/*  футер.адрес, тел */  #FFFFFF 60 %;
+ 
+/* основной шрифт */  Roboto
 
-/* логотип */ font-family: Raleway; 
-font-family: Oleo Script
-
-
-
-
+/* логотип */  Raleway 
+ Oleo Script
 
 :root {
---primary-text-color: #212121;
---text-color-p: #757575;
+    --primary-text-color: #212121;
+    --text-color-p: #757575;    
+    --white: #FFFFFF;
+    --main-background: #E5E5E5;
+    --hero-footer-bcg: #2F303A;
+    --blue: #2196F3;
+    --primary-font: Roboto;
+    --logo-font: Raleway;
+    --secondary-logo: Oleo Script;   
+    }
 
 
+.details-title .occupation-title .team-names{
+    color: #212121;   
+}
+
+              /* site-nav */
+
+.site-nav {
+    background-color:#FFFFFF;
+}
+
+.nav-logo {
+    color: #2196F3;
+    font-family: var(--secondary-logo);
+}
+.nav-logo span{
+    color: #212121;
+}
+
+.site-nav .link {
+    color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+
+ .site-nav .link.current{
+    color: var(--button);
+} 
+
+.info{
+    color: #757575;
+}
+.info:hover,
+.info:focus{
+    color: #2196F3;
 }
 
 
+/* hero */
+.hero {
+    background: #2F303A;
+}
 
+
+.hero-title{
+    color: #FFFFFF;
+    font-family: Roboto;
+}
+
+.btn{
+    color: #FFFFFF;
+    background: #2196F3;
+}
+
+/* details */
+.details-title{
+    color: #212121;
+}
+.details-text{
+    color: #757575;
+}
+
+/* occupation */
+.occupation-title{
+    color: #212121;
+}
+
+/* team */
+.team-title .team-names{
+    color: #212121;
+}
+
+.team-text{
+    color: #757575;
+}
+
+
+/* footer */
+.footer{
+    background: #2F303A;
+}
+.footer-logo{
+    color: #2196F3;
+}
+.footer-logo span{
+    color: #FFFFFF;
+}
+.f-address{
+    color: #FFFFFF;
+}
+.footer-info {
+    color: rgba(255, 255, 255, 0.6);
+}
