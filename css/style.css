@@ -31,35 +31,30 @@
     --secondary-logo: Oleo Script;   
     }
 
-
-.details-title .occupation-title .team-names{
-    color: #212121;   
-}
-
               /* site-nav */
 
 .site-nav {
-    background-color:#FFFFFF;
+    background-color:var(--white);
 }
 
 .nav-logo {
-    color: #2196F3;
+    color: var(--blue);
     font-family: var(--secondary-logo);
 }
-.nav-logo span{
-    color: #212121;
+.studio{
+    color: var(--primary-text-color);
 }
 
-.site-nav .link {
-    color: #212121;
+.site-link {
+    color: var(--primary-text-color)1;
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
-    color: #2196F3;
+.site-link:hover,
+.site-link:focus {
+    color: var(--blue);
 }
 
- .site-nav .link.current{
-    color: var(--button);
+ .site-link.current{
+    color: var(--blue);
 } 
 
 .info{
