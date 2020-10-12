@@ -30,6 +30,7 @@ p, sect  #757575
     --primary-font: Roboto;
     --logo-font: Raleway;
     --footer-address: rgba(255, 255, 255, 0.6);
+    --bcg-team: #F5F4FA
     }
 
               /* site-nav */
@@ -66,6 +67,9 @@ p, sect  #757575
     color: var(--blue);
 }
 
+main{
+    background-color: var(--bcg-team);
+}
 
 /* hero */
 .hero {
@@ -90,11 +94,17 @@ p, sect  #757575
 .details-text{
     color: var(--text-color-p);
 }
+/* .details{
+    background-color: var(--main-background);
+} */
 
 /* occupation */
 .occupation-title{
     color: var(--primary-text-color);
 }
+/* .occupation{
+    background-color: var(--main-background);   
+} */
 
 /* team */
 .team-title .team-names{
@@ -104,6 +114,9 @@ p, sect  #757575
 .team-text{
     color: var(--text-color-p);
 }
+/* .team{
+    background-color: var(--bcg-team);
+} */
 
 
 /* Portfolio */
@@ -116,12 +129,22 @@ p, sect  #757575
 .feature-link:focus{
     color: var(--blue);
 }
+.offer-title{
+    color: var(--primary-text-color);
+}
+
+.offer-text{
+    color: var(--text-color-p);
+}
+.offer-bcg{
+    background-color: var(--white);
+}
 
 /* footer */
 .footer{
     background: #2F303A;
 }
-.footer-logo{
+.footer-logo {
     color: var(--blue);
 }
 .footer-span {
