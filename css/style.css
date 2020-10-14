@@ -13,11 +13,7 @@
 p, sect  #757575
 
  футер.адрес, тел  background: 255,255,255,0,6;
-;
- 
-основной шрифт  Roboto
 
-логотип  Raleway 
  */
 
 :root {
@@ -53,6 +49,7 @@ li{
     font-size: 26px;
     list-style: 1.2;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 .logo-studio{
     color: var(--primary-text-color);
@@ -190,10 +187,12 @@ main{
     line-height: 1.18
     /* text-align: center; */
     letter-spacing: 0.03em;
-
-.team{
-    background-color: var(--bcg-team);
 }
+    
+
+/* .team{
+    background-color: var(--bcg-team);
+} */
 
 
 /* Portfolio */
@@ -240,20 +239,21 @@ letter-spacing: 0.03em;
 
 /* footer */
 .footer{
-    background-color:var(--hero-footer-bcg);
+    background-color: var(--hero-footer-bcg);
 }
 .footer-logo {
     color: var(--blue);
 
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.2;
+    list-style: 1.2;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 .footer-span {
-    color: var(--white); 
+    color: var(--white);
 }   
 
 .f-address{
@@ -273,12 +273,14 @@ letter-spacing: 0.03em;
 
 .footer-info {
     color: var(--footer-address);
+
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71
     letter-spacing: 0.03em;
     text-decoration: none;
+
 }
 
 .footer-info:hover,
