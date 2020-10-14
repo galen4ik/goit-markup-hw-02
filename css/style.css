@@ -47,17 +47,17 @@ li{
 .nav-logo {
     color: var(--blue);
 
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
 }
-.studio{
+.logo-studio{
     color: var(--primary-text-color);
 
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
