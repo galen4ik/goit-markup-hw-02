@@ -51,7 +51,7 @@ li{
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.2;
+    list-style: 1.2;
     letter-spacing: 0.03em;
 }
 .logo-studio{
@@ -190,10 +190,10 @@ main{
     line-height: 1.18
     /* text-align: center; */
     letter-spacing: 0.03em;
-}
-/* .team{
+
+.team{
     background-color: var(--bcg-team);
-} */
+}
 
 
 /* Portfolio */
@@ -249,7 +249,7 @@ letter-spacing: 0.03em;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 .footer-span {
