@@ -49,7 +49,7 @@ li{
 
     font-family: Raleway, sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
@@ -57,12 +57,7 @@ li{
 .logo-studio{
     color: var(--primary-text-color);
 
-    font-family: Raleway, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
+    
 }
 
 .site-link {
@@ -123,7 +118,7 @@ main{
 
 .btn{
     color: var(--white);
-    background: var(--blue);
+    background-color: var(--blue);
     
     font-weight: 700;
     font-size: 16px;
@@ -206,11 +201,22 @@ main{
 /* Фильтры */
 .filter-link{
     color: var(--primary-text-color);
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
 }
 .filter-link:hover,
 .filter-link:focus{
     color: var(--blue);
 }
+
+/* Offer */
 .offer-title{
     color: var(--primary-text-color);
 
@@ -234,7 +240,7 @@ main{
 
 /* footer */
 .footer{
-    background: #2F303A;
+    background-color:var(--hero-footer-bcg);
 }
 .footer-logo {
     color: var(--blue);
@@ -248,11 +254,6 @@ main{
 }
 .footer-span {
     color: var(--white); 
-
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
 }   
 
 .f-address{
@@ -262,9 +263,7 @@ main{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-/* or 171% */
-
-letter-spacing: 0.03em;
+    letter-spacing: 0.03em;
 }
 
 .f-address:hover,
@@ -274,7 +273,7 @@ letter-spacing: 0.03em;
 
 .footer-info {
     color: var(--footer-address);
-
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71
