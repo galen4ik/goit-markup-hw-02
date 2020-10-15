@@ -106,6 +106,7 @@ main{
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    
 
     text-align: center;
     letter-spacing: 0.06em;
@@ -116,6 +117,7 @@ main{
 .btn{
     color: var(--white);
     background-color: var(--blue);
+    text-decoration: none;
     
     font-weight: 700;
     font-size: 16px;
@@ -164,8 +166,8 @@ main{
 .team-title {
     color: var(--primary-text-color);
     font-weight: 700;
-    font-size: 1.16;
-    line-height: 42px;
+    font-size: 36px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -230,7 +232,7 @@ letter-spacing: 0.03em;
 
     font-weight: 400;
     font-size: 16px;
-    line-height: 18.7;
+    line-height: 1.8;
     letter-spacing: 0.03em;
 }
 /* .offer-bcg{
